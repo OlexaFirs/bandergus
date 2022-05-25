@@ -1,0 +1,283 @@
+html, 
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page {
+background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 18px;
+}
+
+.banderogus-container {
+    background: #FFFFFF;
+    padding: 60px 56px;
+    align-self: center;
+}
+
+.banderogus-title {
+    color: #1B1D1F;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.banderogus-greeting {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banderogus-start-text {
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus-descr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus-launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogus-image {
+    align-self: flex-end;
+}
+
+.gus-fact {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gus-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+.gus-descr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 16px 0;
+    width: 875px;
+}
+
+.gus-facts-row{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.gus-facts-item {
+    width: 33%;
+}
+
+.gus-fact-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0 32px 0;       
+}
+
+.gus-fact-descr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 280px;
+}
+
+.victory-bgd{
+    width: 1170px;
+    background: linear-gradient(270deg, #D3EDFD 0%, #FCFEFF 99.56%);
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.victory-title{
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    margin: 16px 0;
+}
+
+.victory-descr{
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 875px;
+}
+
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(27 29 31 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.modal-form-container {
+    background: #FFFFFF;
+    padding: 32px 60px 92px;
+    position: relative;
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-form-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;    
+    display: flex;
+    align-items: center;
+    margin: 32px 0 12px 0;
+}
+
+.modal-form-dscr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.modal-form-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-field-name {
+    color: #1B1D1F;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.modal-field-input {
+    background: #FFFFFF;
+    border: 1px solid #005bbb;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 48px;
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+.modal-form-btn {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 24px;
+}
+
+.close-btn{
+    color: #1B1D1F;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
